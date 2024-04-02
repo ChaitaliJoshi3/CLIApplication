@@ -1,0 +1,6 @@
+dev/chaitaliJ/CLIApplication/reader/fileReader.class
+dev/chaitaliJ/CLIApplication/Validator/FileValidator.class
+dev/chaitaliJ/CLIApplication/utility/LoggerWrapper.class
+dev/chaitaliJ/CLIApplication/commands/CLIcommands.class
+dev/chaitaliJ/CLIApplication/services/WordCountService.class
+dev/chaitaliJ/CLIApplication/Application.class

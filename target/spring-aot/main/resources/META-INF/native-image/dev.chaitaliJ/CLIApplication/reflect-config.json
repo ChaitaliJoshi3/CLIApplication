@@ -1,0 +1,3325 @@
+[
+  {
+    "name": "org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "clientConnectorCustomizer",
+        "parameterTypes": [
+          "org.springframework.http.client.reactive.ClientHttpConnector"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "stringHttpMessageConverter",
+        "parameterTypes": [
+          "org.springframework.core.env.Environment"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.jna.Native",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.OnWebApplicationCondition",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceBeanCreationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.info.ProjectInfoProperties$Build",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setLocation",
+        "parameterTypes": [
+          "org.springframework.core.io.Resource"
+        ]
+      },
+      {
+        "name": "getLocation",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setEncoding",
+        "parameterTypes": [
+          "java.nio.charset.Charset"
+        ]
+      },
+      {
+        "name": "getEncoding",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.LifecycleProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getTimeoutPerShutdownPhase",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setTimeoutPerShutdownPhase",
+        "parameterTypes": [
+          "java.time.Duration"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.r2dbc.NoConnectionFactoryBeanFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializerDatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.StandardCommandsAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "historyCommand",
+        "parameterTypes": [
+          "org.jline.reader.History"
+        ]
+      },
+      {
+        "name": "help",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "version",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "stacktrace",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "script",
+        "parameterTypes": [
+          "org.jline.reader.Parser"
+        ]
+      },
+      {
+        "name": "quit",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "clear",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.r2dbc.ConnectionFactoryBeanCreationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.DelegatingApplicationContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BindFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.Help",
+    "methods": [
+      {
+        "name": "help",
+        "parameterTypes": [
+          "java.lang.String[]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.liquibase.LiquibaseDatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.PropertyNamingStrategies",
+    "fields": [
+      {
+        "name": "UPPER_CAMEL_CASE"
+      },
+      {
+        "name": "SNAKE_CASE"
+      },
+      {
+        "name": "LOWER_CASE"
+      },
+      {
+        "name": "KEBAB_CASE"
+      },
+      {
+        "name": "LOWER_DOT_CASE"
+      },
+      {
+        "name": "LOWER_CAMEL_CASE"
+      },
+      {
+        "name": "UPPER_SNAKE_CASE"
+      }
+    ]
+  },
+  {
+    "name": "java.util.Map"
+  },
+  {
+    "name": "org.springframework.shell.boot.JLineAutoConfiguration$JLineHistoryConfiguration$$SpringCGLIB$$2",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.IncompatibleConfigurationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.JLineAutoConfiguration$JLineHistoryConfiguration$$SpringCGLIB$$1",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.JLineAutoConfiguration$JLineHistoryConfiguration$$SpringCGLIB$$0",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.completion.AbstractCompletions$DefaultCommandModel",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.ComponentFlowAutoConfiguration$ComponentFlowConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "shellCommonComponentFlowCustomizer",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$SMALL_RECT",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.shell.boot.JLineShellAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "terminal",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "parser",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "promptProvider",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ser.std.StdJdkSerializers$AtomicBooleanSerializer",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.FailureAnalyzers",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.aop.framework.ProxyConfig",
+    "methods": [
+      {
+        "name": "setProxyTargetClass",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.Stacktrace",
+    "methods": [
+      {
+        "name": "stacktrace",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContextFactory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.http.client.AbstractClientHttpRequestFactoryWrapper",
+    "fields": [
+      {
+        "name": "requestFactory"
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.Shell",
+    "queriedMethods": [
+      {
+        "name": "setValidatorFactory",
+        "parameterTypes": [
+          "jakarta.validation.ValidatorFactory"
+        ]
+      },
+      {
+        "name": "setExceptionResolvers",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      },
+      {
+        "name": "setCompletionResolvers",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      },
+      {
+        "name": "setExitCodeExceptionProvider",
+        "parameterTypes": [
+          "org.springframework.shell.exit.ExitCodeExceptionProvider"
+        ]
+      },
+      {
+        "name": "setArgumentResolvers",
+        "parameterTypes": [
+          "org.springframework.shell.command.CommandExecution$CommandExecutionHandlerMethodArgumentResolvers"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$Theme",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getName",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "applicationAvailability",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$Option",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getNaming",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setNaming",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$OptionNaming"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.util.List",
+          "org.springframework.boot.context.config.ConfigDataProperties$Activate"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "standardJacksonObjectMapperBuilderCustomizer",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.jackson.JacksonProperties",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jooq.NoDslContextBeanFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.CommandInfoModel",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.data.redis.RedisUrlSyntaxFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.session.JdbcIndexedSessionRepositoryDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.sun.jna.CallbackReference",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ser.std.FileSerializer",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties$Pool",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getSize",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setSize",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ser.std.StdJdkSerializers$AtomicLongSerializer",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$MOUSE_EVENT_RECORD",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.History",
+    "methods": [
+      {
+        "name": "history",
+        "parameterTypes": [
+          "java.io.File"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "ch.qos.logback.classic.LoggerContext"
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String[]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.BackgroundPreinitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.Version",
+    "methods": [
+      {
+        "name": "version",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.http.codec.support.DefaultClientCodecConfigurer",
+    "condition": {
+      "typeReachable": "org.springframework.http.codec.CodecConfigurerFactory"
+    },
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "webClientBuilder",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.UserConfigAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "userConfigPathProvider",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.mustache.MustacheTemplateAvailabilityProvider",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.orm.jpa.JpaDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.ValidationExceptionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.EnvironmentPostProcessorApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.ColorConverter",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$FOCUS_EVENT_RECORD",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "java.sql.Date",
+    "condition": {
+      "typeReachable": "java.sql.Date"
+    },
+    "methods": [
+      {
+        "name": "toLocalDate",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "java.time.LocalDate"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.ComponentFlowAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "componentFlowBuilder",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.env.PropertySourceLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.http.HttpStatus",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "is2xxSuccessful",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getReasonPhrase",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "is4xxClientError",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "is5xxServerError",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "is3xxRedirection",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "is1xxInformational",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "isError",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.JLineAutoConfiguration$JLineHistoryConfiguration$$SpringCGLIB$$0",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$DefaultCodecsConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "defaultCodecCustomizer",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.codec.CodecProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.ParameterResolverAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "commandExecutionHandlerMethodArgumentResolvers",
+        "parameterTypes": [
+          "org.springframework.shell.config.ShellConversionServiceSupplier"
+        ]
+      },
+      {
+        "name": "defaultCompletionResolver",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.jna.Structure$FFIType$size_t",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.FailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.ClearCachesApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.info.ProjectInfoProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.jna.ptr.IntByReference",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.OnBeanCondition",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.result.ResultHandlerConfig$$SpringCGLIB$$2",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.logging.log4j2.Log4J2LoggingSystem$Factory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "taskExecutorBuilder",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.task.TaskExecutionProperties",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "applicationTaskExecutor",
+        "parameterTypes": [
+          "org.springframework.boot.task.TaskExecutorBuilder"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.task.TaskExecutionProperties$Pool",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setKeepAlive",
+        "parameterTypes": [
+          "java.time.Duration"
+        ]
+      },
+      {
+        "name": "isAllowCoreThreadTimeout",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setQueueCapacity",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getKeepAlive",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getQueueCapacity",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setAllowCoreThreadTimeout",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setCoreSize",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getMaxSize",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getCoreSize",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setMaxSize",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "jacksonObjectMapperBuilder",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext",
+          "java.util.List"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAvailabilityProvider",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.slf4j.bridge.SLF4JBridgeHandler"
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$WINDOW_BUFFER_SIZE_RECORD",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.logging.LoggingSystemFactory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.task.TaskExecutionProperties$Shutdown",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getAwaitTerminationPeriod",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "isAwaitTermination",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setAwaitTerminationPeriod",
+        "parameterTypes": [
+          "java.time.Duration"
+        ]
+      },
+      {
+        "name": "setAwaitTermination",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.fasterxml.jackson.datatype.jsr310.JavaTimeModule",
+    "condition": {
+      "typeReachable": "org.springframework.http.converter.json.Jackson2ObjectMapperBuilder"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.http.codec.support.DefaultServerCodecConfigurer",
+    "condition": {
+      "typeReachable": "org.springframework.http.codec.CodecConfigurerFactory"
+    },
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$CHAR_INFO",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "forceAutoProxyCreatorToUseClassProxying",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.r2dbc.init.R2dbcScriptDatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.LogbackLoggingSystem$Factory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "dev.chaitaliJ.CLIApplication.Application",
+    "allPublicMethods": true,
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.integration.IntegrationPropertiesEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.PatternParseFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.web.context.ServerPortInfoApplicationContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionEvaluationReportAutoConfigurationImportListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.PortInUseFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.SpringApplicationRunListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "dev.chaitaliJ.CLIApplication.commands.CLIcommands",
+    "methods": [
+      {
+        "name": "wordCount",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ],
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.codec.CodecProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setMaxInMemorySize",
+        "parameterTypes": [
+          "org.springframework.util.unit.DataSize"
+        ]
+      },
+      {
+        "name": "getMaxInMemorySize",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setLogRequestDetails",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "isLogRequestDetails",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "taskSchedulerBuilder",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.diagnostics.analyzer.NoSuchBeanDefinitionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.YamlPropertySourceLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$CONSOLE_CURSOR_INFO",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.jooq.JooqDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.orm.jpa.JpaDatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getPool",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getThreadNamePrefix",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setThreadNamePrefix",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getShutdown",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.context.ApplicationContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.sun.jna.NativeLong",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataProperties$Activate",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.boot.cloud.CloudPlatform",
+          "java.lang.String[]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationImportListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BindValidationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "defaultValidator",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "methodValidationPostProcessor",
+        "parameterTypes": [
+          "org.springframework.core.env.Environment",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$Interactive",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setEnabled",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "isEnabled",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.ShellContextAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "shellContext",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "defaultLifecycleProcessor",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.context.LifecycleProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.SharedMetadataReaderFactoryContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "jsonMixinModule",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext",
+          "org.springframework.boot.jackson.JsonMixinModuleEntries"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$Command",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setHistory",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$HistoryCommand"
+        ]
+      },
+      {
+        "name": "getQuit",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getHelp",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getClear",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getCompletion",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getStacktrace",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getScript",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setHelp",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$HelpCommand"
+        ]
+      },
+      {
+        "name": "setScript",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$ScriptCommand"
+        ]
+      },
+      {
+        "name": "setQuit",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$QuitCommand"
+        ]
+      },
+      {
+        "name": "setCompletion",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$CompletionCommand"
+        ]
+      },
+      {
+        "name": "setStacktrace",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$StacktraceCommand"
+        ]
+      },
+      {
+        "name": "setVersion",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$VersionCommand"
+        ]
+      },
+      {
+        "name": "getVersion",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getHistory",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setClear",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$ClearCommand"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.builder.ParentContextCloserApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.ConfigurationPropertiesBinder$ConfigurationPropertiesBinderFactory",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$History",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "isEnabled",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getName",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setEnabled",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.batch.JobRepositoryDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.SpringApplication",
+    "methods": [
+      {
+        "name": "setLogStartupInfo",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setResourceLoader",
+        "parameterTypes": [
+          "org.springframework.core.io.ResourceLoader"
+        ]
+      },
+      {
+        "name": "setEnvironment",
+        "parameterTypes": [
+          "org.springframework.core.env.ConfigurableEnvironment"
+        ]
+      },
+      {
+        "name": "getListeners",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setAllowBeanDefinitionOverriding",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "getApplicationStartup",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setLazyInitialization",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setApplicationContextFactory",
+        "parameterTypes": [
+          "org.springframework.boot.ApplicationContextFactory"
+        ]
+      },
+      {
+        "name": "setAddConversionService",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setWebApplicationType",
+        "parameterTypes": [
+          "org.springframework.boot.WebApplicationType"
+        ]
+      },
+      {
+        "name": "getEnvironmentPrefix",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getMainApplicationClass",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setApplicationStartup",
+        "parameterTypes": [
+          "org.springframework.core.metrics.ApplicationStartup"
+        ]
+      },
+      {
+        "name": "setInitializers",
+        "parameterTypes": [
+          "java.util.Collection"
+        ]
+      },
+      {
+        "name": "getResourceLoader",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getWebApplicationType",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setAllowCircularReferences",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setDefaultProperties",
+        "parameterTypes": [
+          "java.util.Properties"
+        ]
+      },
+      {
+        "name": "getInitializers",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setAddCommandLineProperties",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "getAdditionalProfiles",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setSources",
+        "parameterTypes": [
+          "java.util.Set"
+        ]
+      },
+      {
+        "name": "setRegisterShutdownHook",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "getSources",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setBannerMode",
+        "parameterTypes": [
+          "org.springframework.boot.Banner$Mode"
+        ]
+      },
+      {
+        "name": "setBanner",
+        "parameterTypes": [
+          "org.springframework.boot.Banner"
+        ]
+      },
+      {
+        "name": "setAdditionalProfiles",
+        "parameterTypes": [
+          "java.lang.String[]"
+        ]
+      },
+      {
+        "name": "setEnvironmentPrefix",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getAllSources",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setListeners",
+        "parameterTypes": [
+          "java.util.Collection"
+        ]
+      },
+      {
+        "name": "setHeadless",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setBeanNameGenerator",
+        "parameterTypes": [
+          "org.springframework.beans.factory.support.BeanNameGenerator"
+        ]
+      },
+      {
+        "name": "setMainApplicationClass",
+        "parameterTypes": [
+          "java.lang.Class"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getScript",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setConfig",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$Config"
+        ]
+      },
+      {
+        "name": "setHelp",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$Help"
+        ]
+      },
+      {
+        "name": "getHelp",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setInteractive",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$Interactive"
+        ]
+      },
+      {
+        "name": "getCommand",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setTheme",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$Theme"
+        ]
+      },
+      {
+        "name": "setOption",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$Option"
+        ]
+      },
+      {
+        "name": "getOption",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getInteractive",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getConfig",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setNoninteractive",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$Noninteractive"
+        ]
+      },
+      {
+        "name": "getTheme",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setHistory",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$History"
+        ]
+      },
+      {
+        "name": "setCommand",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$Command"
+        ]
+      },
+      {
+        "name": "getHistory",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getNoninteractive",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setScript",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties$Script"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.http.ProblemDetail",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "setStatus",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getDetail",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getTitle",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setStatus",
+        "parameterTypes": [
+          "org.springframework.http.HttpStatus"
+        ]
+      },
+      {
+        "name": "getProperties",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getType",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setDetail",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setType",
+        "parameterTypes": [
+          "java.net.URI"
+        ]
+      },
+      {
+        "name": "getStatus",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setInstance",
+        "parameterTypes": [
+          "java.net.URI"
+        ]
+      },
+      {
+        "name": "setTitle",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getInstance",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BeanDefinitionOverrideFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataLocation",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "boolean",
+          "java.lang.String",
+          "org.springframework.boot.origin.Origin"
+        ]
+      },
+      {
+        "name": "of",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.jna.Klass",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.UnboundConfigurationPropertyFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.http.client.SimpleClientHttpRequestFactory",
+    "condition": {
+      "typeReachable": "java.net.HttpURLConnection"
+    },
+    "methods": [
+      {
+        "name": "setConnectTimeout",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setReadTimeout",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setBufferRequestBody",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "jacksonObjectMapper",
+        "parameterTypes": [
+          "org.springframework.http.converter.json.Jackson2ObjectMapperBuilder"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.context.event.EventListenerMethodProcessor",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$INPUT_RECORD$EventUnion",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.rsocket.context.RSocketPortInfoApplicationContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.sun.jna.Pointer",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.shell.boot.CommandCatalogAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "helpOptionsCommandRegistrationCustomizer",
+        "parameterTypes": [
+          "org.springframework.shell.boot.SpringShellProperties"
+        ]
+      },
+      {
+        "name": "commandRegistrationBuilderSupplier",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "defaultCommandCatalogCustomizer",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "commandCatalog",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.LineReaderAutoConfiguration",
+    "fields": [
+      {
+        "name": "fallbackHistoryFileName"
+      }
+    ],
+    "methods": [
+      {
+        "name": "onContextClosedEvent",
+        "parameterTypes": [
+          "org.springframework.context.event.ContextClosedEvent"
+        ]
+      }
+    ],
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.jline.terminal.Terminal",
+          "org.jline.reader.Completer",
+          "org.jline.reader.Parser",
+          "org.springframework.shell.command.CommandCatalog",
+          "org.jline.reader.History",
+          "org.springframework.shell.boot.SpringShellProperties",
+          "org.springframework.shell.config.UserConfigPathProvider"
+        ]
+      },
+      {
+        "name": "lineReader",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$Help",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setShortNames",
+        "parameterTypes": [
+          "java.lang.Character[]"
+        ]
+      },
+      {
+        "name": "getLongNames",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "isEnabled",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getCommand",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setLongNames",
+        "parameterTypes": [
+          "java.lang.String[]"
+        ]
+      },
+      {
+        "name": "setEnabled",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setCommand",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getShortNames",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.context.event.DefaultEventListenerFactory",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.NoUniqueBeanDefinitionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "restTemplateBuilder",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer"
+        ]
+      },
+      {
+        "name": "restTemplateBuilderConfigurer",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.CommandAvailabilityInfoModel",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.NotConstructorBoundInjectionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "jacksonCodecCustomizer",
+        "parameterTypes": [
+          "com.fasterxml.jackson.databind.ObjectMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "dev.chaitaliJ.CLIApplication.Application__ApplicationContextInitializer",
+    "condition": {
+      "typeReachable": "dev.chaitaliJ.CLIApplication.Application"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorConfiguration$JdkClient",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "jdkClientHttpConnector",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.Clear",
+    "methods": [
+      {
+        "name": "clear",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.web.reactive.DispatcherHandler"
+  },
+  {
+    "name": "org.springframework.shell.boot.CompleterAutoConfiguration",
+    "fields": [
+      {
+        "name": "shell"
+      }
+    ],
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "completer",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties$Shutdown",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getAwaitTerminationPeriod",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setAwaitTerminationPeriod",
+        "parameterTypes": [
+          "java.time.Duration"
+        ]
+      },
+      {
+        "name": "setAwaitTermination",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "isAwaitTermination",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$COORD",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ser.std.ClassSerializer",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.flyway.FlywayDatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration$WebClientCodecsConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "exchangeStrategiesCustomizer",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.FailureAnalysisReporter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationImportFilter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BeanCurrentlyInCreationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.fasterxml.jackson.datatype.jdk8.Jdk8Module",
+    "condition": {
+      "typeReachable": "org.springframework.http.converter.json.Jackson2ObjectMapperBuilder"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.cloud.CloudFoundryVcapEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.JLineAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.logging.java.JavaLoggingSystem$Factory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyValueFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.info.ProjectInfoProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getGit",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getBuild",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$KEY_EVENT_RECORD",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.MutuallyExclusiveConfigurationPropertiesFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "ch.qos.logback.core.rolling.helper.DateTokenConverter",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.Quit",
+    "methods": [
+      {
+        "name": "quit",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.env.SpringApplicationJsonEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.result.ResultHandlerConfig$$SpringCGLIB$$0",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.result.ResultHandlerConfig$$SpringCGLIB$$1",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.CommandParameterInfoModel",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$UnionChar",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.PropertiesPropertySourceLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.Script",
+    "methods": [
+      {
+        "name": "script",
+        "parameterTypes": [
+          "java.io.File"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.ApplicationContextFactory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.ApplicationRunnerAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "defaultShellApplicationRunner",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.web.servlet.server.Encoding",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setForceResponse",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setForceRequest",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setCharset",
+        "parameterTypes": [
+          "java.nio.charset.Charset"
+        ]
+      },
+      {
+        "name": "setMapping",
+        "parameterTypes": [
+          "java.util.Map"
+        ]
+      },
+      {
+        "name": "getCharset",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "isForce",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "isForceRequest",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getMapping",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "isForceResponse",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setForce",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$MENU_EVENT_RECORD",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "messageConverters",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jackson.JacksonProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setTimeZone",
+        "parameterTypes": [
+          "java.util.TimeZone"
+        ]
+      },
+      {
+        "name": "setLocale",
+        "parameterTypes": [
+          "java.util.Locale"
+        ]
+      },
+      {
+        "name": "getVisibility",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getDeserialization",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setDefaultLeniency",
+        "parameterTypes": [
+          "java.lang.Boolean"
+        ]
+      },
+      {
+        "name": "setPropertyNamingStrategy",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setDefaultPropertyInclusion",
+        "parameterTypes": [
+          "com.fasterxml.jackson.annotation.JsonInclude$Include"
+        ]
+      },
+      {
+        "name": "getSerialization",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getMapper",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setConstructorDetector",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.jackson.JacksonProperties$ConstructorDetectorStrategy"
+        ]
+      },
+      {
+        "name": "getTimeZone",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getLocale",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setDateFormat",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getConstructorDetector",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getParser",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getDateFormat",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getPropertyNamingStrategy",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getDefaultLeniency",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getDefaultPropertyInclusion",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getGenerator",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.StandardAPIAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "fileValueProvider",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "commandValueProvider",
+        "parameterTypes": [
+          "org.springframework.shell.command.CommandCatalog"
+        ]
+      },
+      {
+        "name": "standardMethodTargetResolver",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext",
+          "org.springframework.shell.command.CommandRegistration$BuilderSupplier"
+        ]
+      },
+      {
+        "name": "enumValueProvider",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "parameterNamesModule",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.SyslogStartConverter",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ser.std.TokenBufferSerializer",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.web.context.MissingWebServerFactoryBeanFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$Config",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getEnv",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getLocation",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setEnv",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLocation",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.r2dbc.MultipleConnectionPoolConfigurationsFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.context.ApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.completion.AbstractCompletions$DefaultCommandModelCommand",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataNotFoundFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$Noninteractive",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "isEnabled",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setEnabled",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.SpringBootExceptionReporter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.info.ProjectInfoProperties$Git",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setEncoding",
+        "parameterTypes": [
+          "java.nio.charset.Charset"
+        ]
+      },
+      {
+        "name": "getEncoding",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getLocation",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setLocation",
+        "parameterTypes": [
+          "org.springframework.core.io.Resource"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.logging.LoggingApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.io.Closeable",
+    "methods": [
+      {
+        "name": "close",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContextFactory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "mappingJackson2HttpMessageConverter",
+        "parameterTypes": [
+          "com.fasterxml.jackson.databind.ObjectMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "propertySourcesPlaceholderConfigurer",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "dev.chaitaliJ.CLIApplication.Application$$SpringCGLIB$$0",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.result.ResultHandlerConfig",
+    "allPublicMethods": true,
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "attributedCharSequenceResultHandler",
+        "parameterTypes": [
+          "org.jline.terminal.Terminal"
+        ]
+      },
+      {
+        "name": "defaultResultHandler",
+        "parameterTypes": [
+          "org.jline.terminal.Terminal"
+        ]
+      },
+      {
+        "name": "parameterValidationExceptionResultHandler",
+        "parameterTypes": [
+          "org.jline.terminal.Terminal"
+        ]
+      },
+      {
+        "name": "terminalSizeAwareResultHandler",
+        "parameterTypes": [
+          "org.jline.terminal.Terminal"
+        ]
+      },
+      {
+        "name": "throwableResultHandler",
+        "parameterTypes": [
+          "org.jline.terminal.Terminal",
+          "org.springframework.shell.command.CommandCatalog",
+          "org.springframework.shell.context.ShellContext",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "commandParserExceptionResolver",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.NoSuchMethodFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.GroupsInfoModel",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter",
+    "queriedMethods": [
+      {
+        "name": "byAnnotation",
+        "parameterTypes": [
+          "java.lang.Class"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.jna.Structure$FFIType",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.sql.init.dependency.DatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.commands.GroupCommandInfoModel",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.shell.boot.JLineAutoConfiguration$JLineHistoryConfiguration",
+    "allPublicMethods": true,
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "history",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.config.StandardConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$INPUT_RECORD",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.web.embedded.tomcat.ConnectorStartFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.FileEncodingApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.jline.terminal.impl.jna.win.Kernel32$CONSOLE_SCREEN_BUFFER_INFO",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.context.event.EventPublishingRunListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.lang.String"
+  },
+  {
+    "name": "org.springframework.boot.context.ContextIdApplicationContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.AnsiOutputApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.sun.jna.Structure",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.quartz.SchedulerDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.EnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "shellConversionServiceSupplier",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext"
+        ]
+      },
+      {
+        "name": "shell",
+        "parameterTypes": [
+          "org.springframework.shell.ResultHandlerService",
+          "org.springframework.shell.command.CommandCatalog",
+          "org.jline.terminal.Terminal",
+          "org.springframework.shell.config.ShellConversionServiceSupplier",
+          "org.springframework.shell.context.ShellContext",
+          "org.springframework.shell.exit.ExitCodeMappings"
+        ]
+      },
+      {
+        "name": "resultHandlerService",
+        "parameterTypes": [
+          "java.util.Set"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.properties.BoundConfigurationProperties",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.RandomValuePropertySourceEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.jdbc.SpringJdbcDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.web.context.ConfigurableWebApplicationContext"
+  },
+  {
+    "name": "org.springframework.shell.boot.ShellRunnerAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.shell.Shell",
+          "org.springframework.shell.jline.PromptProvider",
+          "org.jline.reader.LineReader",
+          "org.jline.reader.Parser",
+          "org.springframework.shell.context.ShellContext"
+        ]
+      },
+      {
+        "name": "interactiveApplicationRunner",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "nonInteractiveApplicationRunner",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "scriptApplicationRunner",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ser.std.StdJdkSerializers$AtomicIntegerSerializer",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.standard.completion.AbstractCompletions$DefaultCommandModelOption",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.OnClassCondition",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.jna.ptr.PointerByReference",
+    "allDeclaredClasses": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicClasses": true,
+    "allPublicConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.web.servlet.JspTemplateAvailabilityProvider",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getPassword",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getUsername",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setEncoding",
+        "parameterTypes": [
+          "java.nio.charset.Charset"
+        ]
+      },
+      {
+        "name": "setContinueOnError",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "isContinueOnError",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getPlatform",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setMode",
+        "parameterTypes": [
+          "org.springframework.boot.sql.init.DatabaseInitializationMode"
+        ]
+      },
+      {
+        "name": "setDataLocations",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      },
+      {
+        "name": "setSeparator",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getDataLocations",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setUsername",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getEncoding",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setSchemaLocations",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      },
+      {
+        "name": "setPassword",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getSeparator",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setPlatform",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getSchemaLocations",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getMode",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.SpringShellProperties$Script",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setEnabled",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "isEnabled",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.shell.boot.ExitCodeAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "shellExitCodeExceptionMapper",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "shellExitCodeMappingsExceptionMapper",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "exitCodeExceptionProvider",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.config.DelegatingApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.r2dbc.MissingR2dbcPoolDependencyFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.shell.boot.ThemingAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "shellThemeResolver",
+        "parameterTypes": [
+          "org.springframework.shell.style.ThemeRegistry",
+          "org.springframework.shell.boot.SpringShellProperties",
+          "org.springframework.shell.style.ThemeActive"
+        ]
+      },
+      {
+        "name": "templateExecutor",
+        "parameterTypes": [
+          "org.springframework.shell.style.ThemeResolver"
+        ]
+      },
+      {
+        "name": "themeRegistry",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "themeActive",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration",
+    "queriedMethods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "jsonComponentModule",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.yaml.snakeyaml.Yaml",
+    "condition": {
+      "typeReachable": "org.springframework.boot.env.YamlPropertySourceLoader"
+    }
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.aop.framework.ProxyProcessorSupport",
+    "methods": [
+      {
+        "name": "setOrder",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.rolling.helper.IntegerTokenConverter",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.reactor.DebugAgentEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.net.URI"
+  },
+  {
+    "name": "org.springframework.boot.context.config.StandardConfigDataLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.task.TaskExecutionProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getShutdown",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "getThreadNamePrefix",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "setThreadNamePrefix",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getPool",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyNameFailureAnalyzer",
+    "allDeclaredConstructors": true
+  }
+]
