@@ -22,7 +22,7 @@ To build the application, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/word-count-cli.git
+    git clone https://github.com/ChaitaliJoshi3/CLIApplication.git
     ```
 
 2. Navigate to the project directory:
@@ -39,7 +39,7 @@ To build the application, follow these steps:
 
     Using GraalVM Native Image, you can compile Java bytecode into a platform-specific, self-contained native executable to achieve faster startup and a smaller footprint for your application.
 
-    If you do not have GraalVM on your machine, please follow the steps below or skip to the next section:
+    If you do not have GraalVM on your machine, please follow the steps below or skip to step 4:
 
     1. To download GraalVM specific to your machine, you need to select it from the link below:
        [Download GraalVM](https://www.graalvm.org/latest/docs/getting-started/)
